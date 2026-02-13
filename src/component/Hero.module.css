@@ -1,0 +1,44 @@
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 60vh;
+	background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+	color: #fff;
+	padding: 3rem 1rem 2rem 1rem;
+	text-align: center;
+}
+
+.content {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.content h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+}
+
+.content p {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+.ctaBtn {
+	display: inline-block;
+	padding: 0.9em 2.2em;
+	background: #fff;
+	color: #fc5c7d;
+	border-radius: 30px;
+	font-weight: 600;
+	font-size: 1.1rem;
+	text-decoration: none;
+	transition: background 0.2s, color 0.2s;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.ctaBtn:hover {
+	background: #fc5c7d;
+	color: #fff;
+}
