@@ -15,6 +15,12 @@ function Contact() {
     setForm({ name: '', email: '' });
   };
 
+
+
+
+
+
+  
   //   const obj1 = {
   //     name: 'Anmol',
   //     email: 'anmol@gmail.com'
